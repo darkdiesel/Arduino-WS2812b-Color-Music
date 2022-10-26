@@ -292,7 +292,7 @@ void loop() {
   }
 
   // ALTERNATIVE ON IR LIBRARY, DONT WORK CORRECTLY WITH WS2812B
-  // if (IrReceiver.decode()) // если данные пришли выполняем команды
+  // if (IrReceiver.decode()) // if data received run commands
   //  {
   //    Serial.print("IR code: ");
   //    Serial.println(IrReceiver.decodedIRData.decodedRawData, HEX);
@@ -303,11 +303,6 @@ void loop() {
   //   //         // We have an unknown protocol here, print more info
   //   //         IrReceiver.printIRResultRawFormatted(&Serial, true);
   //   //     }
-  //   // Serial.println();
-
-  //     /*
-  //     16761405 - button play
-  //     */
 
   //    switch (IrReceiver.decodedIRData.decodedRawData) {
   //      case IR_BTN_MINUS: // button "-"
